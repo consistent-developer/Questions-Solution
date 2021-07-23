@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.6/tailwind.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="QuestionStyle.css">
+</head>
+
+<body>
+  <div class="py-2 px-6 mb-24 w-full fixed bg-gray-100 rounded-b-xl">
+    <img class="h-6 " src="menu.svg" alt="">
+  </div>
+  <div class="py-10 px-6 md:p-10 text-xl tracking-widest">
+    <p class="QuestionNumber">Question 1 : ( A )</p>
+    <!-- Question 1 : a -->
+    <p class="text-FiraCode Question QuestionNumber">
+      Define: algorithm, flowchart, compiler
+    </p>
+    <!-- Answer 1 : a -->
+    <p class="Answer ">
+      <span class="u">Algorithem</span> : an algorithm is a procedure for solving problems. In order to solve a
+      mathematical or computer problem,this is the first step in the process. <br><br>
+
+      <span class="u">Flowchart</span> : A flowchart is the graphical or pictorial representation of an algorithm with
+      the
+      help of different symbols, shapes, and arrows to demonstrate a process or a program. With algorithms, we can
+      easily
+      understand a program. The main purpose of using a flowchart is to analyze different methods. <br><br>
+
+      <span class="u">Compiler</span> : A compiler translates the code written in one language to some other language
+      without changing the meaning of the program. It is also expected that a compiler should make the target code
+      efficient and optimized in terms of time and space.
+    </p>
+
+
+    <p class="QuestionNumber">Question 1 : ( b )</p>
+    <!-- Question 1 : b -->
+    <p class="text-FiraCode Question ">
+      Why null value is used in string? Justify your answer with example
+    </p>
+
+    <!-- Answer 1 : b -->
+    <p class="Answer ">
+      The reason null terminator on string is because once it is broken down into assembly language each
+      character gets a byte of sequential logical memory allocated to it in the stack in the main memory (RAM) and that
+      is
+      what the computer looks for to know 2 things. <br><br>
+
+      The length of the string to find available memory.
+      To know where the end of the string is otherwise it will continue to read sequentially through memory until it
+      finds
+      a null terminator. <br><br>
+      This means that if you forget a null terminator the pointer indicating that string in memory is going to go into
+      the
+      next block of memory data that has nothing to do with your string. <br><br>
+      So when you declare a constant string like <br><br>
+
+      const char *s = “Hello!”; <br><br>
+
+      A null character ‘\0’ is appended to the end of the string (C does it for you; you don’t need to explicitly add
+      it,
+      unless you’re working with some kind of a variable string) to let the code that works on your string where the end
+      really is. For example, when printf() function is used on a null-terminated string, the characters are printed to
+      the standard output until a null character (‘\0’) is encountered. If there was no null-character, the program will
+      start to misbehave (probably print out some garbage value).
+    </p>
+
+    <p class="QuestionNumber">Question 1 : ( c )</p>
+    <!-- Question 1 : c -->
+    <p class="text-FiraCode Question ">
+      List all operators used in C and explain any three with example.
+    </p>
+
+    <!-- Answer 1 : c  -->
+    <p class="text-Nunito Answer ">
+      An operator is a symbol that tells the compiler to perform specific mathematical or logical functions. C language
+      is rich in built-in operators and provides the following types of operators <br><br>
+
+    <ul class="list-inside list-disc Answer">
+      <li>Arithmetic Operators</li>
+      <li>Relational Operators</li>
+      <li>Logical Operators</li>
+      <li>Bitwise Operators</li>
+      <li>Assignment Operators</li>
+      <li>Misc Operators</li>
+    </ul> <br>
+
+    <p class="Answer-title u">Arithmetic Operators</p> <br><br>
+    <p class="Answer">
+      The following table shows all the arithmetic operators supported by the C language. Assume variable A holds 20 and
+      variable B holds 10 then -
+    </p> <br>
+
+    <table class="table-fixed text-center">
+      <thead>
+        <tr>
+          <th class="w-1/4">Operator</th>
+          <th class="w-1/2">Description</th>
+          <th class="w-1/4">Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>+</td>
+          <td>Adds two operands.</td>
+          <td>A + B = 30</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>Subtracts second operand from the first.</td>
+          <td>A − B = 10</td>
+        </tr>
+        <tr>
+          <td>/</td>
+          <td>Multiplies both operands.</td>
+          <td>A * B = 200</td>
+        </tr>
+        <tr>
+          <td>%</td>
+          <td>Modulus Operator and remainder of after an integer division.</td>
+          <td>A / B = 2</td>
+        </tr>
+        <tr>
+          <td>++</td>
+          <td>Increment operator increases the integer value by one.</td>
+          <td>A++ = 11</td>
+        </tr>
+        <tr>
+          <td>--</td>
+          <td>Decrement operator decreases the integer value by one.</td>
+          <td>A-- = 9</td>
+        </tr>
+      </tbody>
+    </table>
+    </p>
+  </div>
+
+</body>
+
+</html>

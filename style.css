@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Nunito:wght@300&display=swap");
+
+.text-FiraCode {
+  font-family: "Fira Code", monospace;
+}
+.text-Nunito {
+  font-family: "Nunito", sans-serif;
+}
+::selection {
+  background: rgb(219, 255, 243);
+}
+.smoothed {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 999px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(177, 177, 177);
+  border-radius: 999px;
+}

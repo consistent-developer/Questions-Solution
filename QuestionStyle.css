@@ -1,0 +1,63 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.QuestionNumber {
+  font-family: "Fira Code", monospace;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.Question {
+  font-family: "Fira Code", monospace;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.Answer {
+  font-family: "Nunito", sans-serif;
+  color: hsl(216, 100%, 9%);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.Answer-title {
+  font-family: "Nunito", sans-serif;
+  color: hsl(216, 100%, 9%);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.u {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  line-height: 1.5em;
+}
+table {
+  margin: auto;
+}
+th,
+td {
+  padding: 0.5rem;
+  font-family: "Nunito", sans-serif;
+  color: hsl(216, 100%, 9%);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border: 0.3px solid currentColor;
+}
+/* md */
+@media (min-width: 768px) {
+  .Question {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .Answer {
+    color: hsl(216, 100%, 9%);
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+}
